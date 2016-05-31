@@ -12,6 +12,7 @@
 8. Use the *HelloController* by getting a reference from the container
 
 Questions:
+
 1. How is the *HelloController* instantiated?
 2. What happens if the IHelloService implementation cannot be found?
 
@@ -26,6 +27,7 @@ Questions:
 7. Add User Secrets to the program, to read user secrets
 
 Questions:
+
 1. How can inner sections be retrieved?
 2. Is it possible to get all configured values?
 3. What happens if the same value is configured multiple times?
