@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConfigurationFilesSample": {
+      "commandName": "Project",
+      "commandLineArgs": "a=42"
+    }
+  }
+}
