@@ -37,5 +37,12 @@ Questions:
 
 1. Create a console application
 2. Add NuGet packages for "Microsoft.Extensions.Logging.*"
-3. Create a logging builder, write logs to the console
-4. Write log messages
+3. Create a logging factory to set up logging, write logs to the console
+4. Write log messages from your *Main* program
+
+Questions:
+
+1. Why another logging framework?
+2. Does the logging framework support severity levels?
+3. Does the logging framework support scopes?
+4. Can logging be configured to use NLog?
