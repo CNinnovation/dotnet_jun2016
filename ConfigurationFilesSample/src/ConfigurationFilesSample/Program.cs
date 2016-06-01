@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 using Microsoft.Extensions.DependencyInjection;
+using System.IO;
 
 namespace ConfigurationFilesSample
 {
@@ -8,15 +9,19 @@ namespace ConfigurationFilesSample
     {
         public static void Main(string[] args)
         {
-            Config = new ConfigurationBuilder()
-                 .SetBasePath(@"C:\Source\dotnet_jun2016\ConfigurationFilesSample\src\ConfigurationFilesSample\")
+            IConfigurationBuilder builder = new ConfigurationBuilder()
+                .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../../src/ConfigurationFilesSample/"))
+                 //                 .SetBasePath(@"C:\Source\dotnet_jun2016\ConfigurationFilesSample\src\ConfigurationFilesSample\")
                  .AddJsonFile("mymandatoryconfig.json")
                  .AddJsonFile("myoptionalconfig.json", optional: true)
                  .AddEnvironmentVariables()
-                 .AddCommandLine(args)
-                 .AddUserSecrets()
-                 .AddOptions()
-                 .Build();
+                 .AddCommandLine(args);
+
+
+#if DEVELOP
+                builder.AddUserSecrets()
+#endif
+                 Config = builder.Build();
 
             Run();
 
