@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedSample", "SharedSample\SharedSample.shproj", "{F75E0BBD-B96B-4431-BE18-B60A33E25B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWPFApp", "MyWPFApp\MyWPFApp.csproj", "{25796C53-B49E-4A5D-A03D-24D775ACBD8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsoleApp", "MyConsoleApp\MyConsoleApp.csproj", "{C1F29DB9-D3B9-46A5-97BA-1D01BAA4E8AE}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedSample\SharedSample.projitems*{25796c53-b49e-4a5d-a03d-24d775acbd8a}*SharedItemsImports = 4
+		SharedSample\SharedSample.projitems*{f75e0bbd-b96b-4431-be18-b60a33e25b5d}*SharedItemsImports = 13
+		SharedSample\SharedSample.projitems*{c1f29db9-d3b9-46a5-97ba-1d01baa4e8ae}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25796C53-B49E-4A5D-A03D-24D775ACBD8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25796C53-B49E-4A5D-A03D-24D775ACBD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25796C53-B49E-4A5D-A03D-24D775ACBD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25796C53-B49E-4A5D-A03D-24D775ACBD8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F29DB9-D3B9-46A5-97BA-1D01BAA4E8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F29DB9-D3B9-46A5-97BA-1D01BAA4E8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F29DB9-D3B9-46A5-97BA-1D01BAA4E8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F29DB9-D3B9-46A5-97BA-1D01BAA4E8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
