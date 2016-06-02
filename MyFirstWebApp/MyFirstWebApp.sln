@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{96A57AF0-11C5-471B-929C-97E9A6393CCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{351C5335-5D23-4D12-A2E9-519D9E90DC66}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyFirstWebApp", "src\MyFirstWebApp\MyFirstWebApp.xproj", "{BDD9C5C9-C4E5-4C4F-9990-8C795D64BB3F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyMVCWebApp", "src\MyMVCWebApp\MyMVCWebApp.xproj", "{A5C42416-222A-4D21-B804-962ACA1F24E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD9C5C9-C4E5-4C4F-9990-8C795D64BB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD9C5C9-C4E5-4C4F-9990-8C795D64BB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD9C5C9-C4E5-4C4F-9990-8C795D64BB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD9C5C9-C4E5-4C4F-9990-8C795D64BB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C42416-222A-4D21-B804-962ACA1F24E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C42416-222A-4D21-B804-962ACA1F24E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C42416-222A-4D21-B804-962ACA1F24E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C42416-222A-4D21-B804-962ACA1F24E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDD9C5C9-C4E5-4C4F-9990-8C795D64BB3F} = {96A57AF0-11C5-471B-929C-97E9A6393CCD}
+		{A5C42416-222A-4D21-B804-962ACA1F24E2} = {96A57AF0-11C5-471B-929C-97E9A6393CCD}
+	EndGlobalSection
+EndGlobal

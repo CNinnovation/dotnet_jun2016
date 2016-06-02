@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model MyFirstWebApp.Models.Book
+
+@{
+}
+
+@*<form method="post" action="">
+    <input type="text" id="title" name="title" />
+    <br />
+    <button type="submit" />
+</form>*@
+
+
+
+
+@using (Html.BeginForm("MyForm", "MyView", FormMethod.Post))
+{
+    @Html.EditorForModel()
+   
+    <br />
+    <button type="submit">Submit</button>
+
+}
+
