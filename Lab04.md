@@ -1,7 +1,5 @@
 # Lab 04 - Compiler Platform (Roslyn)
 
-## Syntax Query
-
 1. Use the SyntaxQuery project, and use the debugger to learn its functionality
 2. Run the WPFSyntaxTree application and check one of your own files
 3. Run the SyntaxWalker with the debugger
