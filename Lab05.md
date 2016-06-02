@@ -12,5 +12,6 @@
 
 
 Questions:
+
 1. What NuGet packages are needed to use Entity Framework Core
 2. What commands are needed for migrations?
